@@ -11,6 +11,8 @@ echo "Schema file 'initdb.sql' created."
 # mkdir -p ./drive
 # find ./drive -type d -exec chmod 777 {} +
 # echo "'drive' folder is ready."
+chmod +x ./db_init/initdb.sql
+echo "Schema file 'initdb.sql' created and made executable."
 echo "Creating 'record' folder and setting permissions..."
 mkdir -p ./record
 find ./record -type d -exec chmod 777 {} +
